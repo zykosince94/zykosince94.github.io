@@ -72,7 +72,7 @@ function Project() {
                     <img src={dodgketImg} className="zoom" alt="thumbnail" width="100%" />
                     <h2>Dodgket</h2>
                     <p>A full-fledged rocket dodging
-                        game inspired by space invades, developed entirely using
+                        game inspired by space invaders, developed entirely using
                         C++ for my Senior Secondary
                         School project which made use
                         of classes, data file handling for
