@@ -3,6 +3,13 @@ import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
+
+import sumoIcon from '../assets/images/sumoicon.png';
+import cbIcon from '../assets/images/cbicon.jpg';
+import kekaIcon from '../assets/images/kekaicon.jpg';
+import tezoIcon from '../assets/images/tezoicon.jpg';
+import shoptypeIcon from '../assets/images/shoptypeicon.jpg';
+
 import 'react-vertical-timeline-component/style.min.css';
 import '../assets/styles/Timeline.scss'
 
@@ -24,6 +31,7 @@ function Timeline() {
               <h3 className="vertical-timeline-element-title">Senior Programmer</h3>
               <h4 className="vertical-timeline-element-subtitle"><u>Sumo-Digital Ltd</u>, Pune, India & Sheffield, UK</h4>
             </a>
+            <img className="vertical-timeline-element--image" src={sumoIcon} />
             <p data-pm-slice="1 1 []"><strong>Implemented and Refactored Backend systems &amp; tools</strong> for two unannounced AAA cross-platform games, focusing on Ranked PVP/PVE systems, ELO/Rating calculations, matchmaking, rewards, telemetry, and LiveOps tooling.</p>
             <p><br /></p>
             <p><strong>Unannounced Sports Game (2K Games):</strong></p>
@@ -92,6 +100,7 @@ function Timeline() {
               <h3 className="vertical-timeline-element-title">Senior/Lead Engineer - Shoptype</h3>
               <h4 className="vertical-timeline-element-subtitle"><u>Coffeebeans Consulting LLP</u>, Bangalore, India</h4>
             </a>
+            <img className="vertical-timeline-element--image" src={shoptypeIcon} />
             <ul data-pm-slice="3 3 []">
               <li>
                 <p><strong>Led feature development&nbsp;</strong>across <strong>Frontend&nbsp;</strong>and <strong>Backend&nbsp;</strong>on a community-powered network marketplace enabling shopping, content sharing, and revenue generation for various user groups (shoppers, influencers, brands, etc.).&nbsp;</p>
@@ -117,9 +126,10 @@ function Timeline() {
           >
 
             <a href="https://www.unibiz.com/products/r2.html" target="_blank">
-              <h3 className="vertical-timeline-element-title">Senior Consultant - R4</h3>
+              <h3 className="vertical-timeline-element-title">Senior Consultant - R4 - Unibiz Software Solutions Pvt Ltd</h3>
               <h4 className="vertical-timeline-element-subtitle"><u>Coffeebeans Consulting LLP</u>, Bangalore, India</h4>
             </a>
+            <img className="vertical-timeline-element--image" src={cbIcon} />
             <ul data-pm-slice="3 3 []">
               <li>
                 <p><strong>Developed and maintained</strong> a next-gen, fully configurable Rental Equipment Management Software.&nbsp;</p>
@@ -148,6 +158,7 @@ function Timeline() {
               <h3 className="vertical-timeline-element-title">Senior Engineer - Travelogixx</h3>
               <h4 className="vertical-timeline-element-subtitle"><u>Cox and Kings Ltd, Mumbai & Technovert/Tezo</u>, Hyderabad</h4>
             </a>
+            <img className="vertical-timeline-element--image" src={tezoIcon} />
             <ul data-pm-slice="3 3 []">
               <li>
                 <p><strong>Developed Web Experience Management application</strong> for Cox &amp; Kings Ltd, enabling reservations for flights, trains, buses, and hotels/packages.&nbsp;</p>
@@ -176,6 +187,7 @@ function Timeline() {
               <h3 className="vertical-timeline-element-title">Full Stack Developer - Keka</h3>
               <h4 className="vertical-timeline-element-subtitle"><u>KEKA/Technovert/Tezo</u>, Hyderabad</h4>
             </a>
+            <img className="vertical-timeline-element--image" src={kekaIcon} />
             <ul data-pm-slice="3 3 []">
               <li>
                 <p><strong>Led the implementation of a new responsive Angular 7 based Frontend codebase for Keka</strong> (A Human Resource Management and Payroll software), including customization features like themes and widgets.&nbsp;</p>
@@ -201,6 +213,7 @@ function Timeline() {
               <h3 className="vertical-timeline-element-title">Full Stack Developer - KekaHire</h3>
               <h4 className="vertical-timeline-element-subtitle"><u>Technovert/Tezo</u>, Hyderabad</h4>
             </a>
+            <img className="vertical-timeline-element--image" src={kekaIcon} />
             <ul data-pm-slice="3 3 []">
               <li>
                 <p><strong>Led Development&nbsp;</strong>of a comprehensive Applicant Tracking System from scratch, <strong>migrating a legacy AngularJS MVP to Angular 4 (Typescript) with a complete Frontend and Backend overhaul</strong> for scalability and maintainability.&nbsp;</p>
