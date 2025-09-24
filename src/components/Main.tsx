@@ -3,6 +3,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import EmailIcon from '@mui/icons-material/Email';
+import YoutubeIcon from '@mui/icons-material/YouTube';
 import '../assets/styles/Main.scss';
 import PortraitImage from '../assets/images/portrait.jpg';
 
@@ -23,15 +24,17 @@ function Main() {
             <a href="https://www.linkedin.com/in/rishabh-pandey-zykosince94/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
             <a href="https://github.com/zykosince94/" target="_blank" rel="noreferrer"><GitHubIcon/></a>
             <a href="https://www.facebook.com/zykotek/" target="_blank" rel="noreferrer"><FacebookIcon/></a>
+            <a href="https://www.youtube.com/@rishabhpandey6965" target="_blank" rel="noreferrer"><YoutubeIcon/></a>
             <a href="#" onClick={() => {window.alert("Please contact me at " + atob(encodedEmail) + ", Thank you :)");}} rel="noreferrer"><EmailIcon/></a>
           </div>
           <h1>Rishabh Pandey</h1>
-          <p>Full Stack Engineer | Game Developer</p>
+          <p>Full Stack Engineer | Game Developer | Music Production</p>
 
           <div className="mobile_social_icons">
             <a href="https://www.linkedin.com/in/rishabh-pandey-zykosince94/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
             <a href="https://github.com/zykosince94/" target="_blank" rel="noreferrer"><GitHubIcon/></a>
             <a href="https://www.facebook.com/zykotek/" target="_blank" rel="noreferrer"><FacebookIcon/></a>
+            <a href="https://www.youtube.com/@rishabhpandey6965" target="_blank" rel="noreferrer"><YoutubeIcon/></a>
             <a href="#" onClick={() => {window.alert("Please contact me at " + atob(encodedEmail) + ", Thank you :)");}} rel="noreferrer"><EmailIcon/></a>
           </div>
         </div>
