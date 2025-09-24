@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.eb281e85.css",
+    "main.js": "/static/js/main.5392948a.js",
+    "static/js/453.e7350a0b.chunk.js": "/static/js/453.e7350a0b.chunk.js",
+    "static/media/bg.png": "/static/media/bg.5d4d2c425e8380a7b424.png",
+    "static/media/decimatedcol.jpg": "/static/media/decimatedcol.00a12b854b18c924c166.jpg",
+    "static/media/portrait.jpg": "/static/media/portrait.ae455619a85aaeb6e728.jpg",
+    "static/media/Rishabh-Pandey-Resume-Sept-2025.pdf": "/static/media/Rishabh-Pandey-Resume-Sept-2025.0e0e0f82bd0f1b3f0b9c.pdf",
+    "static/media/decimated.png": "/static/media/decimated.caf633228dc3abb05f77.png",
+    "static/media/bombslaughtu.jpeg": "/static/media/bombslaughtu.e8ac188286bde0faf487.jpeg",
+    "static/media/postonaut.jpg": "/static/media/postonaut.1963366df237b4cc9cb6.jpg",
+    "static/media/getmethat.jpg": "/static/media/getmethat.bc774e5a18ffa20f2b19.jpg",
+    "static/media/dodgket.jpg": "/static/media/dodgket.c82acf79e31ff6cc3b3e.jpg",
+    "index.html": "/index.html",
+    "main.eb281e85.css.map": "/static/css/main.eb281e85.css.map",
+    "main.5392948a.js.map": "/static/js/main.5392948a.js.map",
+    "453.e7350a0b.chunk.js.map": "/static/js/453.e7350a0b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eb281e85.css",
+    "static/js/main.5392948a.js"
+  ]
+}
