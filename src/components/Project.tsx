@@ -27,7 +27,7 @@ function Project() {
                         <img src={decimatedColImg} className="zoom" alt="thumbnail" width="100%" />
                     </a>
                     <p>A side scrolling shooting game driven by an intricate storyline involving mutants, mercenaries and a virus outbreak. Shoot your way through bloodthirsty mutants, armed mercenaries and find the truth behind the virus outbreak in this Epic Fast Paced Run'n Gun Shooter. This game puts great focus on atmosphere, cinematic cutscenes and story with graphic features like weather effects, sunbloom never seen in any flash game before. It features kickass sound effects and amazing music work by some talented artists from around the globe.
-                        <br /><b>The game won a Runner-up award for "Student Game of the Year" at NASSCOM Gaming Forum Awards 2014, Pune.</b></p>
+                        <br /><b>The game won a Runner-up award for "Student Game of the Year" at NASSCOM Gaming Forum Awards 2014, Pune.</b> It has attracted over a billion player views thus far.</p>
                 </div>
                 <div className="project">
                     <img src={bombslaughtImg} className="zoom" alt="thumbnail" width="100%" />
