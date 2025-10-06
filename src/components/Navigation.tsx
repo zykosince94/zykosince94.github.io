@@ -55,7 +55,7 @@ function Navigation({ parentToChild, modeChange }: any) {
 
     if (section === 'resume') {
       //open/download resume pdf
-      const resumePdf = require("../assets/Rishabh-Pandey-Resume-Sept-2025.pdf");
+      const resumePdf = require("../assets/Rishabh-Pandey-Resume.pdf");
       window.open(resumePdf, "_blank");
       return;
     }
