@@ -8,8 +8,8 @@ import '../assets/styles/Expertise.scss';
 
 const labelsFirst = [
     "GoLang",
-    "NodeJs",
     ".NET (& Core)",
+    "NodeJs",
     "React",
     "Angular",
     "TypeScript",
@@ -58,7 +58,7 @@ function Expertise() {
                         <h3>Full Stack Web Development</h3>
                         <p>I'm an Experienced and Passionate Software Engineer with over 8 years of
                             experience in translating Business Requirements and functional specification
-                            into performant solutions, specializing in Backend <b>(GoLang, NodeJs, .NET)</b>,
+                            into performant solutions, specializing in Backend <b>(GoLang, .NET (& Core), NodeJs)</b>,
                             Frontend <b>(React, Angular, Js)</b> Development. I've Worked extensively on a large
                             variety of technologies and with cross-functional teams in game studios, start-ups and
                             large corporations, demonstrating adaptability and versatility.</p>

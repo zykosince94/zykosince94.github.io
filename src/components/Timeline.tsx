@@ -88,7 +88,7 @@ function Timeline() {
               </li>
             </ul>
             <p><br /></p>
-            <p className="vertical-timeline-element--techused"><strong>Tech Used:</strong> <strong>GoLang</strong>,<strong>&nbsp;.Net Core (C#)</strong>, <strong>C++</strong>, Python, <strong>Unreal Engine</strong>, ImGUI, <strong>NodeJs</strong>, <strong>Redis</strong>, Google Cloud, <strong>Perforce</strong>, <strong>Azure DevOps</strong>, <strong>Docker&nbsp;</strong>and<strong>,</strong> Proprietary Tools, Cloud Services/DB &amp; Engines</p>
+            <p className="vertical-timeline-element--techused"><strong>Skills/Tech/Experience :</strong> <strong>GoLang</strong>,<strong>&nbsp;.Net Core (C#)</strong>, <strong>C++</strong>, Python, <strong>Unreal Engine</strong>, ImGUI, <strong>NodeJs</strong>, <strong>Redis</strong>, Google Cloud, <strong>Perforce</strong>, <strong>Azure DevOps</strong>, <strong>Docker&nbsp;</strong>and<strong>,</strong> Proprietary Tools, Cloud Services/DB &amp; Engines</p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -114,7 +114,7 @@ function Timeline() {
                 <p><strong>Hands-on experience</strong> with microservices, third-party integrations (Shopify, WooCommerce, <strong>Widget development and integration</strong>), CRON jobs, and Fintech components (Ledgers, Wallets, Payment Gateways), <strong>performance optimizations&nbsp;</strong>and DevOps.&nbsp;</p>
               </li>
             </ul>
-            <p className="vertical-timeline-element--techused"><strong>Tech Used:</strong> <strong>GoLang</strong>, <strong>Apache Kafka</strong>, Neo4j, <strong>MongoDB</strong>, <strong>PostgreSQL</strong>, <strong>React</strong>, <strong>Redux</strong>, <strong>Typescript</strong>, <strong>GraphQL</strong>,<strong>&nbsp;</strong>Kubernetes, <strong>Jenkins</strong>, <strong>NodeJs</strong>, Javascript, Elastic Email &amp; Search, <strong>Git</strong>, JIRA, <strong>AWS</strong>, <strong>Docker</strong>, Kubernetes, Jenkins, <strong>HTML5, CSS</strong>, SEO</p>
+            <p className="vertical-timeline-element--techused"><strong>Skills/Tech/Experience :</strong> <strong>GoLang</strong>, <strong>Apache Kafka</strong>, Neo4j, <strong>MongoDB</strong>, <strong>PostgreSQL</strong>, <strong>React</strong>, <strong>Redux</strong>, <strong>Typescript</strong>, <strong>GraphQL</strong>,<strong>&nbsp;</strong>Kubernetes, <strong>Jenkins</strong>, <strong>NodeJs</strong>, Javascript, Elastic Email &amp; Search, <strong>Git</strong>, JIRA, <strong>AWS</strong>, <strong>Docker</strong>, Kubernetes, Jenkins, <strong>HTML5, CSS</strong>, SEO</p>
 
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -143,7 +143,7 @@ function Timeline() {
                 <p><strong>Conducted deep analysis&nbsp;</strong>to identify and <strong>resolve bottlenecks</strong>, memory leaks, and inefficient code, <strong>resulting in 150-200% faster Backend API and Frontend performance</strong>.</p>
               </li>
             </ul>
-            <p className="vertical-timeline-element--techused"><strong>Tech Used:</strong> <strong>.NET Core (C#)</strong>, <strong>React</strong>, <strong>Redux&nbsp;</strong>(Sagas), NGINX, <strong>NodeJS</strong>, <strong>Javscript</strong>, <strong>Typescript</strong>, <strong>MongoDB</strong>, <strong>Redis</strong>, Docker, <strong>Kubernetes</strong>, Git, JIRA, Visual Studio Profiler, JMeter, Jaeger Tracing</p>
+            <p className="vertical-timeline-element--techused"><strong>Skills/Tech/Experience :</strong> <strong>.NET Core (C#)</strong>, <strong>React</strong>, <strong>Redux&nbsp;</strong>(Sagas), NGINX, <strong>NodeJS</strong>, <strong>Javscript</strong>, <strong>Typescript</strong>, <strong>MongoDB</strong>, <strong>Redis</strong>, Docker, <strong>Kubernetes</strong>, Git, JIRA, Visual Studio Profiler, JMeter, Jaeger Tracing</p>
 
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -171,7 +171,7 @@ function Timeline() {
                 <p><strong>Coordinated cross-team communication</strong> and <strong>task management</strong>/breakdown<strong>.</strong></p>
               </li>
             </ul>
-            <p className="vertical-timeline-element--techused"><strong>Tech Used:</strong> <strong>.NET (C#),</strong> WebAPI, <strong>Redis</strong>, <strong>ASP.NET MVC 5, Sitecore, MySQL, AngularJS, Typescript</strong>, <strong>Javascript</strong>, jQuery, <strong>HTML5, CSS,&nbsp;</strong>IIS, <strong>Git</strong></p>
+            <p className="vertical-timeline-element--techused"><strong>Skills/Tech/Experience :</strong> <strong>.NET (C#),</strong> WebAPI, <strong>Redis</strong>, <strong>ASP.NET MVC 5, Sitecore, MySQL, AngularJS, Typescript</strong>, <strong>Javascript</strong>, jQuery, <strong>HTML5, CSS,&nbsp;</strong>IIS, <strong>Git</strong></p>
 
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -196,7 +196,7 @@ function Timeline() {
                 <p><strong>Migrated the Performance Management System</strong> from <strong>AngularJS/JavaScript</strong> to a modern stack.</p>
               </li>
             </ul>
-            <p className="vertical-timeline-element--techused"><strong>Tech Used:</strong> <strong>.NET (C#), WebAPI, MySQL, Azure CosmosDB, AngularJS, Angular 7</strong>, <strong>Typescript, HTML5, CSS</strong>, SASS, <strong>Git</strong></p>
+            <p className="vertical-timeline-element--techused"><strong>Skills/Tech/Experience :</strong> <strong>.NET (C#), WebAPI, MySQL, Azure CosmosDB, AngularJS, Angular 7</strong>, <strong>Typescript, HTML5, CSS</strong>, SASS, <strong>Git</strong></p>
 
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -223,7 +223,7 @@ function Timeline() {
                 <p><strong>Stepped up as the Lead when needed</strong> and handled DevOps tasks.</p>
               </li>
             </ul>
-            <p className="vertical-timeline-element--techused"><strong>Tech Used:</strong> <strong>.NET (C#), WebAPI, ASP.NET MVC 5, MySQL, Angular 4&ndash;7, Azure CosmosDB, HTML5, CSS&nbsp;</strong>(SASS/SCSS), Bootstrap 4, <strong>TypeScript</strong>, jQuery, <strong>Git</strong>, IIS</p>
+            <p className="vertical-timeline-element--techused"><strong>Skills/Tech/Experience :</strong> <strong>.NET (C#), WebAPI, ASP.NET MVC 5, MySQL, Angular 4&ndash;7, Azure CosmosDB, HTML5, CSS&nbsp;</strong>(SASS/SCSS), Bootstrap 4, <strong>TypeScript</strong>, jQuery, <strong>Git</strong>, IIS</p>
           </VerticalTimelineElement>
         </VerticalTimeline>
       </div>
