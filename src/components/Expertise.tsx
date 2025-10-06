@@ -88,7 +88,7 @@ function Expertise() {
                         <p>As part of <b>Sumo-Digital Ltd</b> for the past few years, I've implemented and refactored Backend services & tools for two
                             unannounced cross-platform games, focusing on Ranked PVP/PVE
                             systems, ELO/Rating calculations, matchmaking, rewards, telemetry, and
-                            LiveOps tooling etc. Primarily worked with <b>GoLang, .NET, Unreal Engine and variety of proprietary technologies</b>.</p>
+                            Internal Developer tools etc. Primarily worked with <b>GoLang, .NET, Unreal Engine and variety of proprietary technologies</b>.</p>
                         <p>I've also been designing and developing games independently (as ZYKOTEK) from my early school years. With more than 10 games licensed, released and a <b>NASSCOM Student Game of the Year</b> award, I've been exposed to various programming languages, design/animation concepts and development platforms.</p>
                         <div className="flex-chips">
                             <span className="chip-title">Tech stack:</span>
