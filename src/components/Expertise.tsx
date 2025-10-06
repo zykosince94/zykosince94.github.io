@@ -55,7 +55,7 @@ function Expertise() {
                 <div className="skills-grid">
                     <div className="skill">
                         <FontAwesomeIcon icon={faFileCode} size="3x" />
-                        <h3>Full Stack Web Development</h3>
+                        <h3>Frontend & Backend Engineering</h3>
                         <p>I'm an Experienced and Passionate Software Engineer with over 8 years of
                             experience in translating Business Requirements and functional specification
                             into performant solutions, specializing in Backend <b>(GoLang, .NET (& Core), NodeJs)</b>,
