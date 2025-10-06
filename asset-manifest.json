@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.b6f2f3d4.css",
-    "main.js": "/static/js/main.9bfcae30.js",
+    "main.js": "/static/js/main.a964db91.js",
     "static/js/453.e7350a0b.chunk.js": "/static/js/453.e7350a0b.chunk.js",
     "static/media/bg.png": "/static/media/bg.5d4d2c425e8380a7b424.png",
     "static/media/decimatedcol.jpg": "/static/media/decimatedcol.00a12b854b18c924c166.jpg",
     "static/media/portrait.jpg": "/static/media/portrait.ae455619a85aaeb6e728.jpg",
-    "static/media/Rishabh-Pandey-Resume.pdf": "/static/media/Rishabh-Pandey-Resume.b42b343c0f8167c1e4e3.pdf",
+    "static/media/Rishabh-Pandey-Resume.pdf": "/static/media/Rishabh-Pandey-Resume.bc8dffcc882cd0f67e3f.pdf",
     "static/media/decimated.png": "/static/media/decimated.caf633228dc3abb05f77.png",
     "static/media/bombslaughtu.jpeg": "/static/media/bombslaughtu.e8ac188286bde0faf487.jpeg",
     "static/media/postonaut.jpg": "/static/media/postonaut.1963366df237b4cc9cb6.jpg",
@@ -15,11 +15,11 @@
     "static/media/dodgket.jpg": "/static/media/dodgket.c82acf79e31ff6cc3b3e.jpg",
     "index.html": "/index.html",
     "main.b6f2f3d4.css.map": "/static/css/main.b6f2f3d4.css.map",
-    "main.9bfcae30.js.map": "/static/js/main.9bfcae30.js.map",
+    "main.a964db91.js.map": "/static/js/main.a964db91.js.map",
     "453.e7350a0b.chunk.js.map": "/static/js/453.e7350a0b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b6f2f3d4.css",
-    "static/js/main.9bfcae30.js"
+    "static/js/main.a964db91.js"
   ]
 }
