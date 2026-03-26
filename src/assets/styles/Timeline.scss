@@ -7,7 +7,7 @@
     color: rgb(39, 40, 34);
     
     :hover{
-        color: #5000ca;
+        color: red;
     }
 }
 
@@ -17,9 +17,9 @@
 }
 
 .vertical-timeline-element .vertical-timeline-element--techused {
-    font-size: 14px;
-    background-color: rgb(250, 0, 1);
-    padding: 10px;
+    font-size: 12px;
+    background-color: #8d0000;
+    padding: 16px;
     border-radius: 0.25em;
     color: white;
 }

@@ -24,7 +24,7 @@ function Timeline() {
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
             date="Nov 2022 - Mar 2025"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            iconStyle={{ background: 'red', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <a href="https://www.sumo-digital.com/" target="_blank" rel="noreferrer">
@@ -32,68 +32,71 @@ function Timeline() {
               <h4 className="vertical-timeline-element-subtitle"><u>Sumo-Digital Ltd</u>, Pune, India & Sheffield, UK</h4>
             </a>
             <img className="vertical-timeline-element--image" alt="" src={sumoIcon} />
-            <p data-pm-slice="1 1 []"><strong>Implemented and Refactored Backend systems &amp; tools</strong> for two unannounced AAA cross-platform games, focusing on Ranked PVP/PVE systems, ELO/Rating calculations, matchmaking, rewards, telemetry, and LiveOps tooling.</p>
-            <p><br /></p>
-            <p><strong>Unannounced Sports Game (2K Games):</strong></p>
+            <p data-pm-slice="1 1 []">Designed and built scalable backend systems powering real-time, high-concurrency applications.</p>
+            <p>&nbsp;</p>
+            <p><strong>Key Contributions:</strong></p>
             <ul>
               <li>
-                <p><strong>Designed and Developed Backend services/APIs</strong> for Ranked Mode: ELO/Rating calculations, reward distribution (daily/monthly/seasonal), and player state management.</p>
+                <p>Architected and implemented <strong>low-latency distributed services</strong> for real-time state management and synchronization</p>
               </li>
               <li>
-                <p>Hooked up various implemented systems with the game&apos;s <strong>Client and Server flows</strong> <strong>(C++)</strong>.</p>
+                <p>Designed <strong>ranking and scoring systems</strong> handling continuous updates and concurrent transactions</p>
               </li>
               <li>
-                <p><strong>Developed</strong> currency, store, and wallet related <strong>services</strong>.</p>
+                <p>Built backend services for:</p>
+                <ul>
+                  <li data-indent="1">
+                    <p data-indent="1">Digital Wallets and virtual transaction systems</p>
+                  </li>
+                  <li data-indent="1">
+                    <p data-indent="1">User state management and session handling</p>
+                  </li>
+                  <li data-indent="1">
+                    <p data-indent="1">Rule-based reward and entitlement systems</p>
+                  </li>
+                </ul>
               </li>
               <li>
-                <p><strong>Ported legacy matchmaking ELO system</strong> on the client and server.</p>
+                <p>Enabled <strong>cross-platform distributed coordination</strong> across multiple clients and services</p>
               </li>
               <li>
-                <p><strong>Implemented debugging cheats/APIs</strong> for modifying player state and match outcomes.</p>
+                <p>Developed <strong>event-driven telemetry pipelines</strong> for system monitoring and analytics</p>
+              </li>
+              <li>
+                <p>Built internal tools for:</p>
+                <ul>
+                  <li data-indent="1">
+                    <p data-indent="1">Data inspection and debugging</p>
+                  </li>
+                  <li data-indent="1">
+                    <p data-indent="1">Dynamic configuration and feature control (LiveOps-style systems)</p>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <p>Collaborated with DevOps to design and maintain <strong>cloud-native deployment pipelines</strong></p>
+              </li>
+            </ul>
+            <p>&nbsp;</p>
+            <p><strong>Impact:</strong></p>
+            <ul>
+              <li>
+                <p>Improved system scalability and flexibility for handling real-time workloads</p>
+              </li>
+              <li>
+                <p>Reduced operational overhead through better observability and internal tooling</p>
+              </li>
+              <li>
+                <p>Enabled dynamic configuration updates without downtime</p>
               </li>
             </ul>
             <p><br /></p>
-            <p><strong>Unannounced Platformer/Co-op/Team Game (Tencent Games):</strong></p>
-            <ul>
-              <li>
-                <p><strong>Designed and Implemented ELO/Rating services</strong> for multiple game modes (Solo, FFA, Team), with layered, tweakable player state structures.</p>
-              </li>
-              <li>
-                <p><strong>Developed and integrated Telemetry custom and event driven services&nbsp;</strong>using <strong>Redis&nbsp;</strong>and Player KV Data.</p>
-              </li>
-              <li>
-                <p><strong>Upgraded matchmaking&nbsp;</strong>to support <strong>cross-platform&nbsp;</strong>pools.</p>
-              </li>
-              <li>
-                <p><strong>Built LiveOps Tools&nbsp;</strong>for syncing player data related templates/schemas and versioned definitions.</p>
-              </li>
-            </ul>
-            <p><br /></p>
-            <p><strong>Additional Contributions:</strong></p>
-            <ul>
-              <li>
-                <p><strong>Integrated above services with a Live Data System</strong> for real-time parameter tuning alongside <strong>extensive test coverage</strong>.</p>
-              </li>
-              <li>
-                <p><strong>Created Debug UI elements and systems&nbsp;</strong>for Ratings and Telemetry in <strong>Unreal Engine</strong>.</p>
-              </li>
-              <li>
-                <p><strong>Implemented live/title data versioning&nbsp;</strong>based on platform, region, and sandbox.</p>
-              </li>
-              <li>
-                <p>Worked with the DevOps team to <strong>develop deployment pipelines&nbsp;</strong>for cloud services.</p>
-              </li>
-              <li>
-                <p><strong>Investigated&nbsp;</strong>various libraries, platforms and related software before implementation/integration.</p>
-              </li>
-            </ul>
-            <p><br /></p>
-            <p className="vertical-timeline-element--techused"><strong>Skills/Tech/Experience :</strong> <strong>GoLang</strong>,<strong>&nbsp;.Net Core (C#)</strong>, <strong>C++</strong>, Python, <strong>Unreal Engine</strong>, ImGUI, <strong>NodeJs</strong>, <strong>Redis</strong>, Google Cloud, <strong>Perforce</strong>, <strong>Azure DevOps</strong>, <strong>Docker&nbsp;</strong>and<strong>,</strong> Proprietary Tools, Cloud Services/DB &amp; Engines</p>
+            <p className="vertical-timeline-element--techused"><strong>GoLang</strong>,<strong>&nbsp;.Net Core (C#)</strong>, <strong>C++</strong>, Python, <strong>Unreal Engine</strong>, ImGUI, <strong>NodeJs</strong>, <strong>Redis</strong>, Google Cloud, <strong>Perforce</strong>, <strong>Azure DevOps</strong>, <strong>Docker&nbsp;</strong>and<strong>,</strong> Proprietary Tools, Cloud Services/DB &amp; Engines</p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="Sept 2020 - Oct 2022"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            iconStyle={{ background: 'red', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <a href="https://www.shoptype.com/" target="_blank" rel="noreferrer">
@@ -103,24 +106,27 @@ function Timeline() {
             <img className="vertical-timeline-element--image" alt="" src={shoptypeIcon} />
             <ul data-pm-slice="3 3 []">
               <li>
-                <p><strong>Led feature development&nbsp;</strong>across <strong>Frontend&nbsp;</strong>and <strong>Backend&nbsp;</strong>on a community-powered network marketplace enabling shopping, content sharing, and revenue generation for various user groups (shoppers, influencers, brands, etc.).&nbsp;</p>
+                <p><strong>Led technical decision making and implementations </strong>across <strong>Frontend </strong>and <strong>Backend </strong>on a community-powered network/marketplace enabling shopping, content sharing, and revenue generation for various user groups (shoppers, influencers, brands, etc.).</p>
               </li>
             </ul>
             <ul>
               <li>
-                <p><strong>Handled team management</strong>, and <strong>planning</strong> of new features with timelines based on research.&nbsp;</p>
+                <p>Designed and implemented wallet, ledger and payment services and SDKs ensuring transactional consistency and auditability.</p>
               </li>
               <li>
-                <p><strong>Hands-on experience</strong> with microservices, third-party integrations (Shopify, WooCommerce, <strong>Widget development and integration</strong>), CRON jobs, and Fintech components (Ledgers, Wallets, Payment Gateways), <strong>performance optimizations&nbsp;</strong>and DevOps.&nbsp;</p>
+                <p>Built microservices handling financial transactions with idempotency and failure recovery mechanisms.</p>
+              </li>
+              <li>
+                <p>Designed scalable Backend architecture using <strong>Kafka </strong>and <strong>PostgreSQL </strong>to support high-throughput marketplace operations.</p>
               </li>
             </ul>
-            <p className="vertical-timeline-element--techused"><strong>Skills/Tech/Experience :</strong> <strong>GoLang</strong>, <strong>Apache Kafka</strong>, Neo4j, <strong>MongoDB</strong>, <strong>PostgreSQL</strong>, <strong>React</strong>, <strong>Redux</strong>, <strong>Typescript</strong>, <strong>GraphQL</strong>,<strong>&nbsp;</strong>Kubernetes, <strong>Jenkins</strong>, <strong>NodeJs</strong>, Javascript, Elastic Email &amp; Search, <strong>Git</strong>, JIRA, <strong>AWS</strong>, <strong>Docker</strong>, Kubernetes, Jenkins, <strong>HTML5, CSS</strong>, SEO</p>
+            <p className="vertical-timeline-element--techused"><strong>GoLang</strong>, <strong>Apache Kafka</strong>, Neo4j, <strong>MongoDB</strong>, <strong>PostgreSQL</strong>, <strong>React</strong>, <strong>Redux</strong>, <strong>Typescript</strong>, <strong>GraphQL</strong>,<strong>&nbsp;</strong>Kubernetes, <strong>Jenkins</strong>, <strong>NodeJs</strong>, Javascript, Elastic Email &amp; Search, <strong>Git</strong>, JIRA, <strong>AWS</strong>, <strong>Docker</strong>, Kubernetes, Jenkins, <strong>HTML5, CSS</strong>, SEO</p>
 
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="Dec 2019 - Aug 2020"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            iconStyle={{ background: 'red', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
 
@@ -143,13 +149,13 @@ function Timeline() {
                 <p><strong>Conducted deep analysis&nbsp;</strong>to identify and <strong>resolve bottlenecks</strong>, memory leaks, and inefficient code, <strong>resulting in 150-200% faster Backend API and Frontend performance</strong>.</p>
               </li>
             </ul>
-            <p className="vertical-timeline-element--techused"><strong>Skills/Tech/Experience :</strong> <strong>.NET Core (C#)</strong>, <strong>React</strong>, <strong>Redux&nbsp;</strong>(Sagas), NGINX, <strong>NodeJS</strong>, <strong>Javscript</strong>, <strong>Typescript</strong>, <strong>MongoDB</strong>, <strong>Redis</strong>, Docker, <strong>Kubernetes</strong>, Git, JIRA, Visual Studio Profiler, JMeter, Jaeger Tracing</p>
+            <p className="vertical-timeline-element--techused"><strong>.NET Core (C#)</strong>, <strong>React</strong>, <strong>Redux&nbsp;</strong>(Sagas), NGINX, <strong>NodeJS</strong>, <strong>Javscript</strong>, <strong>Typescript</strong>, <strong>MongoDB</strong>, <strong>Redis</strong>, Docker, <strong>Kubernetes</strong>, Git, JIRA, Visual Studio Profiler, JMeter, Jaeger Tracing</p>
 
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="Jun 2019 - Nov 2019"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            iconStyle={{ background: 'red', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <a href="https://www.tezo.com/" target="_blank" rel="noreferrer">
@@ -171,13 +177,13 @@ function Timeline() {
                 <p><strong>Coordinated cross-team communication</strong> and <strong>task management</strong>/breakdown<strong>.</strong></p>
               </li>
             </ul>
-            <p className="vertical-timeline-element--techused"><strong>Skills/Tech/Experience :</strong> <strong>.NET (C#),</strong> WebAPI, <strong>Redis</strong>, <strong>ASP.NET MVC 5, Sitecore, MySQL, AngularJS, Typescript</strong>, <strong>Javascript</strong>, jQuery, <strong>HTML5, CSS,&nbsp;</strong>IIS, <strong>Git</strong></p>
+            <p className="vertical-timeline-element--techused"><strong>.NET (C#),</strong> WebAPI, <strong>Redis</strong>, <strong>ASP.NET MVC 5, Sitecore, MySQL, AngularJS, Typescript</strong>, <strong>Javascript</strong>, jQuery, <strong>HTML5, CSS,&nbsp;</strong>IIS, <strong>Git</strong></p>
 
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="Dec 2018 - May 2019"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            iconStyle={{ background: 'red', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <a href="https://www.keka.com/" target="_blank" rel="noreferrer">
@@ -196,16 +202,16 @@ function Timeline() {
                 <p><strong>Migrated the Performance Management System</strong> from <strong>AngularJS/JavaScript</strong> to a modern stack.</p>
               </li>
             </ul>
-            <p className="vertical-timeline-element--techused"><strong>Skills/Tech/Experience :</strong> <strong>.NET (C#), WebAPI, MySQL, Azure CosmosDB, AngularJS, Angular 7</strong>, <strong>Typescript, HTML5, CSS</strong>, SASS, <strong>Git</strong></p>
+            <p className="vertical-timeline-element--techused"><strong>.NET (C#), WebAPI, MySQL, Azure CosmosDB, AngularJS, Angular 7</strong>, <strong>Typescript, HTML5, CSS</strong>, SASS, <strong>Git</strong></p>
 
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="Jun 2017 - Nov 2018"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            iconStyle={{ background: 'red', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <a href="https://www.keka.com/" target="_blank" rel="noreferrer">
+            <a href="https://www.keka.com/applicant-tracking-system" target="_blank" rel="noreferrer">
               <h3 className="vertical-timeline-element-title">Full Stack Developer - KekaHire</h3>
               <h4 className="vertical-timeline-element-subtitle"><u>Technovert/Tezo</u>, Hyderabad</h4>
             </a>
@@ -223,7 +229,7 @@ function Timeline() {
                 <p><strong>Stepped up as the Lead when needed</strong> and handled DevOps tasks.</p>
               </li>
             </ul>
-            <p className="vertical-timeline-element--techused"><strong>Skills/Tech/Experience :</strong> <strong>.NET (C#), WebAPI, ASP.NET MVC 5, MySQL, Angular 4&ndash;7, Azure CosmosDB, HTML5, CSS&nbsp;</strong>(SASS/SCSS), Bootstrap 4, <strong>TypeScript</strong>, jQuery, <strong>Git</strong>, IIS</p>
+            <p className="vertical-timeline-element--techused"><strong>.NET (C#), WebAPI, ASP.NET MVC 5, MySQL, Angular 4&ndash;7, Azure CosmosDB, HTML5, CSS&nbsp;</strong>(SASS/SCSS), Bootstrap 4, <strong>TypeScript</strong>, jQuery, <strong>Git</strong>, IIS</p>
           </VerticalTimelineElement>
         </VerticalTimeline>
       </div>

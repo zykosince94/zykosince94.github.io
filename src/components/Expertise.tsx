@@ -7,9 +7,11 @@ import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
 
 const labelsFirst = [
-    "GoLang",
-    ".NET (& Core)",
-    "NodeJs",
+    "Golang (Go)",
+    ".NET (C#)",
+    "Node.js",
+    "C++",
+    "Python",
     "React",
     "Angular",
     "TypeScript",
@@ -20,27 +22,30 @@ const labelsFirst = [
     "SQL",
     "PostgreSQL",
     "MongoDB",
-    "CosmosDB",
+    "CosmosDB/DynamoDB",
     "Redis",
     "Neo4J"
 ];
 
 const labelsSecond = [
-    "Git",
     "Perforce",
     "Docker",
+    "Kubernetes",
+    "Git",
     "AWS",
     "Azure",
     "Google Cloud",
     "Jenkins",
     "Kafka",
-    "Kubernetes"
+    "Prometheus",
+    "Grafana",
+    "Jaeger"
 ];
 
 const labelsThird = [
     "Unreal Engine (C++)",
     "Flash",
-    "Actionscript/Js",
+    "Actionscript/Javascript",
     "Unity",
     "Blender",
     "Gimp/Photoshop",
@@ -55,13 +60,8 @@ function Expertise() {
                 <div className="skills-grid">
                     <div className="skill">
                         <FontAwesomeIcon icon={faFileCode} size="3x" />
-                        <h3>Frontend & Backend Engineering</h3>
-                        <p>I'm an Experienced and Passionate Software Engineer with over 8 years of
-                            experience in translating Business Requirements and functional specification
-                            into performant solutions, specializing in Backend <b>(GoLang, .NET (& Core), NodeJs)</b>,
-                            Frontend <b>(React, Angular, Js)</b> Development. I've Worked extensively on a large
-                            variety of technologies and with cross-functional teams in game studios, start-ups and
-                            large corporations, demonstrating adaptability and versatility.</p>
+                        <h3>Software Engineering</h3>
+                        <p>Experienced and passionate Software Engineer with over 8 years of experience translating business requirements and functional specifications into high-performance solutions. Specialized in backend development using Go, .NET (including .NET Core), and Node.js, as well as frontend development with React, Angular, and JavaScript. Proven track record of working across diverse technologies and collaborating with cross-functional teams in game studios, startups, and large enterprises, demonstrating strong adaptability and versatility.</p>
                         <div className="flex-chips">
                             <span className="chip-title">Tech stack:</span>
                             {labelsFirst.map((label, index) => (
@@ -73,7 +73,7 @@ function Expertise() {
                     <div className="skill">
                         <FontAwesomeIcon icon={faDocker} size="3x" />
                         <h3>LiveOps Tooling/DevOps & Automation</h3>
-                        <p>Alongside Test Driven Development of Frontend applications and Backend services, I also help with setting up CI/CD pipelines, deployment automation and development of LiveOps Tooling necessary for successful & robust solutions.</p>
+                        <p>In addition to practicing test-driven development for both frontend applications and backend services, I contribute to the design and implementation of CI/CD pipelines, deployment automation, and the development of LiveOps tooling, ensuring the delivery of robust, scalable, and reliable solutions.</p>
                         <div className="flex-chips">
                             <span className="chip-title">Tech stack:</span>
                             {labelsSecond.map((label, index) => (
@@ -85,11 +85,8 @@ function Expertise() {
                     <div className="skill">
                         <FontAwesomeIcon icon={faChessKnight} size="3x" />
                         <h3>Game Development</h3>
-                        <p>As part of <b>Sumo-Digital Ltd</b> for the past few years, I've implemented and refactored Backend services & tools for two
-                            unannounced cross-platform games, focusing on Ranked PVP/PVE
-                            systems, ELO/Rating calculations, matchmaking, rewards, telemetry, and
-                            Internal Developer tools etc. Primarily worked with <b>GoLang, .NET Core, Unreal Engine and variety of proprietary technologies</b>.</p>
-                        <p>I've also been designing and developing games independently (as ZYKOTEK) from my early school years. With more than 10 games licensed, released and a <b>NASSCOM Student Game of the Year</b> award, I've been exposed to various programming languages, design/animation concepts and development platforms.</p>
+                        <p>As part of Sumo Digital over the past few years, I have designed, implemented, and refactored backend services and tools for two unannounced cross-platform titles. My work has focused on ranked PvP/PvE systems, ELO-based rating calculations, matchmaking, rewards, telemetry, and internal developer tooling. I have primarily worked with Go, .NET Core, Unreal Engine, and a range of proprietary technologies.
+                        </p><p>In parallel, I have been independently designing and developing games under the name ZYKOTEK since my early school years. With over 10 games licensed and released, and recognition including the NASSCOM Student Game of the Year, I have gained extensive exposure to diverse programming languages, as well as game design, animation concepts, and multiple development platforms.</p>
                         <div className="flex-chips">
                             <span className="chip-title">Tech stack:</span>
                             {labelsThird.map((label, index) => (
