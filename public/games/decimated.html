@@ -1,0 +1,40 @@
+<html>
+
+<head>
+    <script src="ruffle/ruffle.js"></script>
+    <script>
+        var swfPlayer;
+
+        window.RufflePlayer = window.RufflePlayer || {};
+        window.RufflePlayer.config = {
+            ...window.RufflePlayer,
+            "quality": "high",
+            "frameRate": 45,
+            "allowFullscreen": true,
+            "autoplay": "on"
+        }
+
+        window.addEventListener("DOMContentLoaded", () => {
+            let ruffle = window.RufflePlayer.newest();
+            let player = ruffle.createPlayer();
+            let container = document.getElementById("container");
+            container.appendChild(player);
+            player.ruffle().load("decimated.swf");
+            player.style.width = "960px";
+            player.style.height = "825px";
+            swfPlayer = player;
+        });
+
+        goFullscreen = () => {
+            swfPlayer.requestFullscreen();
+        }
+    </script>
+</head>
+
+<body style="margin: 10px; background-color: black;">
+    <div id="container" style="display: flex; justify-content: center; align-items: center;"></div>
+    <div style="margin-top:20px; display: flex; justify-content: center;"><button id="fullscreen-btn"
+            onclick="goFullscreen()" style="width: 120px; height: 40px;">Fullscreen</button></div>
+</body>
+
+</html>

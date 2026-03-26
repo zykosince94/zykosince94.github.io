@@ -17,11 +17,11 @@ function Project() {
                 <div className="project">
                     <img src={decimatedImg} className="zoom" alt="thumbnail" width="100%" />
                     <h2>Decimated</h2>
+                    <a href="games/decimated.html" target="_blank" rel="noreferrer">
+                        <div className="project-action"><PlayIcon /> <div className="project-action-title">Play</div></div>
+                    </a>
                     <a href="https://www.youtube.com/watch?v=SUcH9DW0pRE" target="_blank" rel="noreferrer">
                         <div className="project-action"><MovieIcon /> <div className="project-action-title">Trailer</div></div>
-                    </a>
-                    <a href="https://www.newgrounds.com/portal/view/659771" target="_blank" rel="noreferrer">
-                        <div className="project-action"><PlayIcon /> <div className="project-action-title">Play</div></div>
                     </a>
                     <a href={decimatedColImg} target="_blank" rel="noreferrer">
                         <img src={decimatedColImg} className="zoom" alt="thumbnail" width="100%" />
@@ -32,7 +32,7 @@ function Project() {
                 <div className="project">
                     <img src={bombslaughtImg} className="zoom" alt="thumbnail" width="100%" />
                     <h2>Bombslaught</h2>
-                    <a href="https://www.newgrounds.com/portal/view/588645" target="_blank" rel="noreferrer">
+                    <a href="games/bombslaught.html" target="_blank" rel="noreferrer">
                         <div className="project-action"><PlayIcon /> <div className="project-action-title">Play</div></div>
                     </a>
                     <p>A huge Terrorist force is about to invade your homeland and
