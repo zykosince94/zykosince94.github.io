@@ -96,7 +96,7 @@ function Expertise() {
                             <a href="games/decimated.html" target="_blank" rel="noreferrer">
                                 <div className="project-action"><PlayIcon /> <div className="project-action-title">Play Decimated</div></div>
                             </a>
-                            <a href="games/decimated.html" target="_blank" rel="noreferrer">
+                            <a href="games/bombslaught.html" target="_blank" rel="noreferrer">
                                 <div className="project-action"><PlayIcon /> <div className="project-action-title">Play Bombslaught</div></div>
                             </a>
                         </div>
