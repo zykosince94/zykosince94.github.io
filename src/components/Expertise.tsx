@@ -61,7 +61,10 @@ function Expertise() {
                     <div className="skill">
                         <FontAwesomeIcon icon={faFileCode} size="3x" />
                         <h3>Software Engineering</h3>
-                        <p>Experienced and passionate Software Engineer with over 8 years of experience translating business requirements and functional specifications into high-performance solutions. Specialized in backend development using Go, .NET (including .NET Core), and Node.js, as well as frontend development with React, Angular, and JavaScript. Proven track record of working across diverse technologies and collaborating with cross-functional teams in game studios, startups, and large enterprises, demonstrating strong adaptability and versatility.</p>
+                        <p>Senior Engineer with 8+ years of experience building and scaling distributed systems for real-time platforms,
+                            financial systems, and high-throughput applications. Expertise in designing resilient microservices, event-driven
+                            architectures, and low-latency APIs handling large-scale concurrent workloads. Proven track record of delivering
+                            reliable, observable, and highly available systems.</p>
                         <div className="flex-chips">
                             <span className="chip-title">Tech stack:</span>
                             {labelsFirst.map((label, index) => (
